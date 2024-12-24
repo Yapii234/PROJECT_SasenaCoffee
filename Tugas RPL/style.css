@@ -7,6 +7,9 @@ body {
     padding: 50px 0;
     text-align: center;
 }
+.product {
+    margin-bottom: 30px;
+}
 footer {
     background: #6f4c3e;
     color: white;
