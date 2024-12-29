@@ -1,18 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     background-color: #f4f4f4;
 }
+/* navbar */
+#navbar-color{
+    background-color: rgba(238,224,208);
+ }
+ .navbar-brand {
+    font-family: "Inter Tight", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+ }
+ .navbar-nav {
+    margin: auto;
+    display: fixed;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    transition: left 0.3s;
+
+}
+.nav-link {
+    margin-left: 45px;
+    color: #6f4c3e;
+    transition: .1s ease;
+    cursor: pointer;
+    font-family: "Inter Tight", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    
+}
+.nav-link:hover {
+    color: #6f4c3e;
+    border-right:4px solid #6f4c3e;
+    border-left:4px solid #6f4c3e;
+    border-radius: 15px;
+}
+
 .header {
     background: #6f4c3e;
     color: white;
     padding: 50px 0;
     text-align: center;
+    font-family: "Inter Tight", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 .product {
     margin-bottom: 30px;
+    font-family: "Inter Tight", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 footer {
     background: #6f4c3e;
     color: white;
     padding: 20px 0;
     text-align: center;
+    font-family: "Inter Tight", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
