@@ -55,7 +55,7 @@ button.navbar-toggler-{
 
 .nav-link:hover {
   color: #6f4c3e;
-  border: 2px solid #6f4c3e;
+  border: 3px solid #6f4c3e;
   border-radius: 8px;
   padding: 2px 8px; 
 }
@@ -187,7 +187,7 @@ button.Other:hover {
 .contact-form form {
   position: relative;
   width: 50%;
-  border: 5px solid #6f4c3e;
+  border: 3x solid #6f4c3e;
   border-radius: 30px;
   margin: auto;
   padding: 10px;
@@ -211,7 +211,7 @@ button.Other:hover {
   width: 160px;
   height: 60px;
   background: transparent;
-  border: 3px solid #6f4c3e;
+  border: 3px solid #4E342E;
   border-radius: 30px;
   transition: 0.5s ease;
   cursor: pointer;
