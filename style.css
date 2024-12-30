@@ -20,6 +20,7 @@ body {
     gap: 1rem;
     list-style: none;
     transition: left 0.3s;
+    margin-left: 20px;
 
 }
 .nav-link {
@@ -35,10 +36,11 @@ body {
 }
 .nav-link:hover {
     color: #6f4c3e;
-    border-right:4px solid #6f4c3e;
-    border-left:4px solid #6f4c3e;
-    border-radius: 15px;
+    border:4px solid #6f4c3e;
+    /* border-left:4px solid #6f4c3e; */
+    border-radius: 20px;
 }
+/* navbar end */
 
 .header {
     background: #6f4c3e;
@@ -57,6 +59,57 @@ body {
   font-weight: <weight>;
   font-style: normal;
 }
+
+/* contact */ 
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: -50px;
+  padding-top: -50px;
+}
+.contact-form form {
+  position: relative;
+  width: 50%;
+  border: 5px solid #6f4c3e;
+  border-radius: 30px;
+  margin: auto;
+  padding: 10px;
+}
+.contact-form form input, form textarea {
+  width: 80%;
+  padding: 15px;
+  background: white;
+  color: black;
+  border: 3px solid #6f4c3e;
+  outline: none;
+  font-size: 15px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+.contact-form textarea {
+  resize: none;
+  height: 200px;
+}
+.contact-form input .submit {
+  width: 160px;
+  height: 60px;
+  background: transparent;
+  border: 3px solid #6f4c3e;
+  border-radius: 30px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.contact-form .submit:hover {
+  background-color: #6f4c3e;
+  color: white;
+}
+iframe {
+  margin-top: 30px;
+}
+/* contact end */
+
 footer {
     background: #6f4c3e;
     color: white;
