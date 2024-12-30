@@ -55,21 +55,21 @@
             <div class="cards-container">
                 <div class="card">
                   <h3>Nama Produk 1</h3>
-                  <img src="/assets/produk1.jpg" alt="">
+                  <img src="/Tugas RPL/assets/produk1.jpg" alt="">
                   <p class="Desc">Deskripsi singkat tentang produk.</p>
                   <p class="price">Harga: Rp100.000</p>
                   <button>Beli Sekarang</button>
                 </div>
                 <div class="card">
                   <h3>Nama Produk 2</h3>
-                  <img src="/assets/produk2.jpg" alt="">
+                  <img src="/Tugas RPL/assets/produk2.jpg" alt="">
                   <p class="Desc">Deskripsi singkat tentang produk.</p>
                   <p class="price">Harga: Rp200.000</p>
                   <button>Beli Sekarang</button>
                 </div>
                 <div class="card">
                   <h3>Nama Produk 3</h3>
-                  <img src="/assets/produk3.jpg" alt="">
+                  <img src="/Tugas RPL/assets/produk3.jpg" alt="">
                   <p class="Desc">Deskripsi singkat tentang produk.</p>
                   <p class="price">Harga: Rp300.000</p>
                   <button>Beli Sekarang</button>
@@ -117,12 +117,16 @@
         <div class="contact">
             <h2>CONTACT US</h2>
         </div>
+        <div class="alert alert-success role="alert" id="myAlert">
+                  Berhasil Terkirim! 
+                </div>
             <div class="contact-form">
-                <form action="" class="text-center">
-                    <input type="name" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
-                    <input type="submit" value="Send Message" class="submit" require>
+                <form action="https://formspree.io/f/xpwwjdwo"
+                method="POST" class="text-center">
+                    <input type="name" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
+                    <input type="submit" onclick="myFunction()" value="Send Message" class="submit" require>
                 </form>
             </div>
         </div>
@@ -137,6 +141,24 @@
         </div>
         <p>Hubungi Kami: email@example.com | [nomor telepon]</p>
     </footer>
+
+    <script>
+      // alerts //
+      var myAlert = document.getElementById('myAlert');
+
+      myAlert.style.display = 'none'
+
+      function myFunction() {
+      myAlert.style.display = 'block' 
+
+      // Clear the text before upload //
+      window.onbeforeunload = () => {
+      for (const form of document.getElementsByTagName("form")) {
+      form.reset();
+      }
+    };
+    }
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
