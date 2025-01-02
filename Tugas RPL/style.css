@@ -5,13 +5,16 @@
   color: white;
   padding: 50px 0;
   text-align: center;
-  font-family: "Inter Tight", serif;
-font-optical-sizing: auto;
-font-weight: 700;
-font-style: normal;
-
 }
-
+.header h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.header p {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+}
 /* navbar */
 button.navbar-toggler-{
   color: #007BFF;
@@ -62,6 +65,9 @@ button.navbar-toggler-{
 
 /*Body*/
 body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
     background-color: #faf3e0;
     color: #3e2723;
 }
@@ -75,7 +81,46 @@ section.features{
 section#products.products.mt-5 {
   padding-bottom: 5vh;
 }
+
+/*About*/
+#about h2 {
+  font-family: 'Abril Fatface', serif;
+  font-size: 36px;
+}
+#about p {
+  font-family: 'Roboto', sans-serif;
+  color: #555;
+  line-height: 1.8;
+}
+.image-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-container img {
+  transition: transform 0.4s ease-in-out, filter 0.4s ease-in-out;
+    width: 500px;
+    height: 300px;
+    object-fit: cover; /* Menjaga gambar tetap proporsional */
+}
+
+.image-container:hover img {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+
+
 /* Container untuk card */
+.products h2 {
+  font-family: 'Abril Fatface', serif;
+  color: #4b2e2e;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
 .cards-container {
   display: flex;
   justify-content: center;
@@ -97,12 +142,19 @@ section#products.products.mt-5 {
   transition: transform 0.2s, box-shadow 0.2s;
   color: #faf3e0;
 }
-h3 {
+.card h3 {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
   color: #3e2723;
 }
-p.Desc, p.price {
+p.Desc{
+  font-size: 14px;
   color: #3e2723;
-  font-weight: 500;
+}
+p.price{
+  font-size: 16px;
+  color: #3e2723;
+  margin: 10px 0;
 }
 .card:hover {
   transform: translateY(-5px);
@@ -123,29 +175,34 @@ img {
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-  transition: background-color 0.3s;
+  transition:  0.3s;
 }
 
 .card button:hover {
   background-color: #4E342E;
 }
-button.Other {
+button.btn{
     background-color: #6f4c3e;
     color: white;
     border: none;
-    padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s;
-    margin-left: 476px;
+    transition: 0.3s;
 }
-button.Other:hover {
+button.btn {
   background-color: #4E342E;
 }
 
 /*Testimoni*/
 /* Style untuk semua card testimoni */
+.testimoni h2 {
+  font-family: 'Abril Fatface', serif;
+  color: #4b2e2e;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
 .testimoni .card {
   height: 100%;
   min-height: 200px; 
@@ -158,14 +215,10 @@ button.Other:hover {
 }
 
 .testimoni .card-body {
-  display: flex;
-  flex-direction: column; 
-  justify-content: space-between;
-  height: 100%;
+  font-family: 'Merriweather', serif;
 }
 
 .testimoni .card-text {
-  font-size: 16px;
   color: #4E342E;
 }
 
@@ -174,12 +227,22 @@ button.Other:hover {
   color: #795548; 
 }
 /* contact */ 
+
+
 .contact {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 50px;
   padding: 0;
+}
+
+.contact h2 {
+  font-family: 'Abril Fatface', serif;
+  color: #4b2e2e;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
 }
 .contact-form{
   padding-bottom: 5vh;
