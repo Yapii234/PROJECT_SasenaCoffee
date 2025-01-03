@@ -1,17 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 /*Header*/
-.header {
-  background: #4e342e;
-  color: white;
-  padding: 50px 0;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.header h1{
+.Background {
+  background-image: url(./assets/Home.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  filter: blur(7px);
+  z-index: -1;
+}
+.content {
+  color: black;
+  text-align: center;
+  padding-top: 400px;
+}
+.content h1 {
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: 700;
 }
-.header p {
+.content p {
   font-family: 'Lora', serif;
   font-size: 18px;
 }
