@@ -5,31 +5,44 @@
   padding: 0;
   box-sizing: border-box;
 }
-.Background {
-  background-image: url(./assets/Home.avif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  top: 0;
-  left: 0;
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.background {
+  position: relative;
   width: 100%;
-  min-height: 100vh;
-  filter: blur(7px);
-  z-index: -1;
+  height: 100vh;
+  background: url('./assets/Home.avif') no-repeat center center/cover;
+  filter: blur(5px);
 }
-.content {
-  color: black;
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black; 
   text-align: center;
-  padding-top: 400px;
+  font-family: Arial, sans-serif;
+  z-index: 1;
+  background-color: transparent;
+  
 }
-.content h1 {
+
+.text h1 {
+  font-size: 3rem;
   font-family: 'Playfair Display', serif;
-  font-size: 48px;
-  font-weight: 700;
+  font-weight: 600;
 }
-.content p {
+
+.text p {
+  font-size: 1.3rem;
   font-family: 'Lora', serif;
-  font-size: 18px;
 }
+
 /* navbar */
 button.navbar-toggler-{
   color: #007BFF;
