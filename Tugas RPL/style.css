@@ -76,7 +76,6 @@ button.navbar-toggler-{
 }
 .nav-link {
   color: white;
-  transition: 0.4s ease;
   cursor: pointer;
   font-family: "Inter Tight", serif;
   font-optical-sizing: auto;
@@ -87,7 +86,7 @@ button.navbar-toggler-{
 .nav-link:hover {
   color: #6f4c3e;
   border: 3px solid #6f4c3e;
-  border-radius: 8px;
+  border-radius: 30px;
   padding: 2px 8px; 
 }
 
