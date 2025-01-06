@@ -33,24 +33,6 @@ html {
 }
 
 .text h1 {
-<<<<<<< HEAD
-  font-size: 3rem;
-  font-family: "Playfair Display", serif;
-  font-weight: 600;
-}
-
-.text p {
-  font-size: 1.3rem;
-  font-family: "Lora", serif;
-}
-
-/* navbar */
-button.navbar-toggler- {
-  color: #007bff;
-}
-.navbar-toggler {
-  color: white;
-=======
   font-family: "Inter Tight", serif;
   font-optical-sizing: auto;
   font-weight: 800;
@@ -67,7 +49,6 @@ button.navbar-toggler- {
 /* navbar */
 button.navbar-toggler {
   background-color: white;
->>>>>>> dc27783c9ea7520ee253ad4f01f5da772638c3b2
 }
 #navbar-color {
   background-color: rgba(238, 224, 208);
@@ -91,12 +72,6 @@ button.navbar-toggler {
   font-size: 18px;
   padding-right: 10px;
 }
-<<<<<<< HEAD
-.navbar-brand {
-  color: white;
-}
-=======
->>>>>>> dc27783c9ea7520ee253ad4f01f5da772638c3b2
 .nav-link {
   color: white;
   cursor: pointer;
@@ -111,12 +86,8 @@ button.navbar-toggler {
   color: #6f4c3e;
   border: 3px solid #6f4c3e;
   border-radius: 30px;
-<<<<<<< HEAD
-  padding: 2px 8px;
-=======
   padding: 2px 8px; 
   margin-top: 5px;
->>>>>>> dc27783c9ea7520ee253ad4f01f5da772638c3b2
 }
 
 /*Body*/
@@ -139,13 +110,6 @@ section#products.products.mt-5 {
 
 /*About*/
 #about h2 {
-<<<<<<< HEAD
-  font-family: "Abril Fatface", serif;
-  font-size: 36px;
-}
-#about p {
-  font-family: "Roboto", sans-serif;
-=======
   font-family: "Inter Tight", serif;
   font-optical-sizing: auto;
   font-weight: 800;
@@ -156,7 +120,6 @@ section#products.products.mt-5 {
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
->>>>>>> dc27783c9ea7520ee253ad4f01f5da772638c3b2
   color: #555;
   line-height: 1.8;
 }
@@ -183,14 +146,10 @@ section#products.products.mt-5 {
 
 /* Container untuk card */
 .products h2 {
-<<<<<<< HEAD
-  font-family: "Abril Fatface", serif;
-=======
   font-family: "Inter Tight", serif;
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
->>>>>>> dc27783c9ea7520ee253ad4f01f5da772638c3b2
   color: #4b2e2e;
   margin-bottom: 30px;
 }
@@ -215,14 +174,10 @@ section#products.products.mt-5 {
   color: #faf3e0;
 }
 .card h3 {
-<<<<<<< HEAD
-  font-family: "Pacifico", cursive;
-=======
   font-family: "Inter Tight", serif;
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
->>>>>>> dc27783c9ea7520ee253ad4f01f5da772638c3b2
   font-size: 20px;
   color: #3e2723;
 }
@@ -258,21 +213,6 @@ img {
 }
 
 .card button:hover {
-<<<<<<< HEAD
-  background-color: #4e342e;
-}
-button.btn {
-  background-color: #6f4c3e;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: 0.3s;
-}
-button.btn {
-  background-color: #4e342e;
-=======
   background-color: #4E342E;
 }
 button.btn{
@@ -287,20 +227,15 @@ button.btn {
   margin-top: 15px;
   background-color: #3e2723;
   color: white;
->>>>>>> dc27783c9ea7520ee253ad4f01f5da772638c3b2
 }
 
 /*Testimoni*/
 /* Style untuk semua card testimoni */
 .testimoni h2 {
-<<<<<<< HEAD
-  font-family: "Abril Fatface", serif;
-=======
   font-family: "Inter Tight", serif;
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
->>>>>>> dc27783c9ea7520ee253ad4f01f5da772638c3b2
   color: #4b2e2e;
   font-size: 36px;
   margin-bottom: 30px;
@@ -318,11 +253,7 @@ button.btn {
 }
 
 .testimoni .card-body {
-<<<<<<< HEAD
-  font-family: "Merriweather", serif;
-=======
   font-family: 'Inter Tight', serif;
->>>>>>> dc27783c9ea7520ee253ad4f01f5da772638c3b2
 }
 
 .testimoni .card-text {
@@ -344,11 +275,7 @@ button.btn {
 }
 
 .contact h2 {
-<<<<<<< HEAD
-  font-family: "Abril Fatface", serif;
-=======
   font-family: 'Inter Tight', serif;
->>>>>>> dc27783c9ea7520ee253ad4f01f5da772638c3b2
   color: #4b2e2e;
   text-align: center;
   font-size: 36px;
@@ -400,19 +327,16 @@ iframe {
 /* contact end */
 
 footer {
-<<<<<<< HEAD
   background: #6f4c3e;
   color: white;
   padding: 20px 0;
   text-align: center;
   font-family: "Inter Tight", serif;
-=======
     background: #3e2723;
     color: white;
     padding: 20px 0;
     text-align: center;
     font-family: "Inter Tight", serif;
->>>>>>> dc27783c9ea7520ee253ad4f01f5da772638c3b2
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
@@ -434,10 +358,6 @@ footer div a {
 }
 
 footer div a:hover {
-<<<<<<< HEAD
   color: #ffd54f; /* Warna saat ikon di-hover */
 }
-=======
-  color: #6f4c3e; /* Warna saat ikon di-hover */
-}
->>>>>>> dc27783c9ea7520ee253ad4f01f5da772638c3b2
+
