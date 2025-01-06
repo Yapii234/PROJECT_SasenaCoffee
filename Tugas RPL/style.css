@@ -61,6 +61,7 @@ button.navbar-toggler {
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
+  color: white;
 }
 
 .navbar-nav {
@@ -71,9 +72,6 @@ button.navbar-toggler {
   font-size: 18px;
   padding-right: 10px;
 }
-.navbar-brand{
-  color: white;
-}
 .nav-link {
   color: white;
   cursor: pointer;
@@ -81,6 +79,7 @@ button.navbar-toggler {
   font-optical-sizing: auto;
   font-weight: 600; 
   font-style: normal;
+  margin-top: 5px;
 }
 
 .nav-link:hover {
@@ -88,6 +87,7 @@ button.navbar-toggler {
   border: 3px solid #6f4c3e;
   border-radius: 30px;
   padding: 2px 8px; 
+  margin-top: 5px;
 }
 
 /*Body*/
@@ -330,7 +330,7 @@ iframe {
 /* contact end */
 
 footer {
-    background: #6f4c3e;
+    background: #3e2723;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -340,14 +340,21 @@ footer {
   font-style: normal;
 }
 
+footer p {
+  margin-top: 10px;
+}
+
 footer div a {
   margin: 0 10px; /* Jarak antar ikon */
-  color: white; /* Warna ikon */
+  color: #3e2723; /* Warna ikon */
   font-size: 24px; /* Ukuran ikon */
   text-decoration: none; /* Hilangkan garis bawah */
   transition: color 0.3s; /* Efek transisi */
+  border: 4px solid white;
+  border-radius: 5px;
+  background-color: white;
 }
 
 footer div a:hover {
-  color: #fbb79c; /* Warna saat ikon di-hover */
+  color: #6f4c3e; /* Warna saat ikon di-hover */
 }
